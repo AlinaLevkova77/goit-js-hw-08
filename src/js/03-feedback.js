@@ -13,6 +13,7 @@ refs.form.addEventListener('submit',onFormSubmit);
 
 populateForm();
 
+
 function onFormSubmit(e) {
     e.preventDefault();
     const savedInputs = JSON.parse(localStorage.getItem(LOCALSTORAGE_KEY));
